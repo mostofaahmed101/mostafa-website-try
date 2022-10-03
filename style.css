@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Pacifico&display=swap');
+
+body{
+	font-family: 'Abyssinica SIL', serif;
+	/*font-family: 'Pacifico', cursive;*/
+}
+
+header{
+	background-color: #87509c;
+	overflow: hidden;
+	color: #ffff;
+}
+
+.box{
+	width: 80%;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.header-top img{
+	width: 50px;
+	float: left;
+}
+
+nav ul{
+	text-align: right;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 12px 20px;
+	font-size: 16px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.3s;
+	color: #ffff;
+}
+
+nav ul li:hover{
+	background-color: #643a79;
+}
+
+.header-content{
+	text-align: center;
+	margin: auto;
+}
+
+.header-content h2{
+	margin-top: 140px;
+	font-size: 42px;
+}
+
+.header-content a{
+	width: 240px;
+	padding: 25px;
+	margin: 50px;
+	background-color: #eb7d4b;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffff;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.header-content a:hover{
+	background-color: #643a79;
+}
+
+.service-section-header{
+	background-color: #17c2a4;
+	overflow: hidden;
+	color: #ffff;
+}
+
+.service-top{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.service-top h2{
+	font-size: 40px;
+}
+
+.service-top p{
+	font-size: 18px;
+	opacity: 70%;
+}
+
+.service-icon{
+	width: 23%;
+	float: left;
+	margin: 100px 15px;
+	text-align: center;
+}
+
+.service-icon h4{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 24px;
+}
+
+.service-icon p{
+	text-align: center;
+	font-size: 18px;
+	opacity: 70%;
+}
